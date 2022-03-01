@@ -23,13 +23,13 @@ $(document).ready(function () {
                         <img src="${image}" class="card-img-top" alt="...">
                         <div class="card-body">
                         <h5 class="card-title">${name}</h5>
-                        <p class="card-text">contenido pendiente</p>
+                        <p class="card-text">Alias: ${biography.aliases}</p>
                         </div>
                         <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Genero: ${appearance.gender}</li>
-                        <li class="list-group-item">raza: ${appearance.race}</li>
-                        <li class="list-group-item">A second item</li>
-                        <li class="list-group-item">A third item</li>
+                        <li class="list-group-item"><b>Genero: </b>${appearance.gender}</li>
+                        <li class="list-group-item"><b>raza: </b>${appearance.race}</li>
+                        <li class="list-group-item"><b>Altur: </b>${appearance.height[1]}</li>
+                        <li class="list-group-item"><b>Peso </b>${appearance.weight[1]}</li>
                         </ul>
                         <div class="card-body">
                         <a href="#" class="card-link">Card link</a>
