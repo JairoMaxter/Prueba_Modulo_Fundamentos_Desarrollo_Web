@@ -39,5 +39,14 @@ $(document).ready(function () {
                  `);
             },
         });
+
+
+        
+        $.ajax({
+            url: "https://superheroapi.com/api.php/4905856019427443/" + valueInput + "/powerstats",
+            success: function (data) {
+
+            }
+        });
     });
 });
