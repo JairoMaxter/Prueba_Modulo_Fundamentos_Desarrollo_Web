@@ -9,7 +9,7 @@ $(document).ready(function () {
         if (input == '') {
             alert("Debe ingresar un número");
             return false;
-        } else if (parseInt(input) < 0 || parseInt(input) > 732) {
+        } else if (parseInt(input) < 1 || parseInt(input) > 732) {
             alert("El numero debe ser mayor a 0 y menor a 732");
             return false;
         } else if (!isNaN(parseInt(input))) {
